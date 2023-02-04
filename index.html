@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Diseño Gráfico por Elian</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(248, 249, 250);
+      }
+
+      h1 {
+        color: rgb(31, 120, 180);
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 50px;
+      }
+
+      .card {
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+      }
+
+      .card h2 {
+        color: rgb(31, 120, 180);
+        margin-top: 0;
+        font-size: 22px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .card p {
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: left;
+        padding: 0 20px;
+      }
+
+      .card i {
+        color: rgb(31, 120, 180);
+        font-size: 50px;
+        margin-bottom: 20px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Diseño Gráfico por Elian</h1>
+    <div class="container">
+     <div class="card">
+        <i class="fas fa-palette"></i>
+        <img src="imgl.png" alt="Creatividad">
+        <h2>Creatividad</h2>
+        <p>El diseño gráfico es una disciplina que combina la creatividad y la técnica para crear diseños impactantes y memorables.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-pencil-ruler"></i>
+        <img src="https://via.placeholder.com/300x200" alt="Técnica">
+        <h2>Técnica</h2>
+        <p>El diseño gráfico requiere de conocimientos técnicos en software de diseño, como Adobe Illustrator o Photoshop, para llevar a cabo un buen diseño.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chart-bar"></i>
+        <img src="https://via.placeholder.com/300x200" alt="Estrategia">
+        <h2>Estrategia</h2>
+        <p>El diseño gráfico también requiere de una estrategia clara para lograr los objetivos de comunicación y alcanzar el éxito en el proyecto.</p>
+      </div>
+    </div>
+  </body>
+</html>
